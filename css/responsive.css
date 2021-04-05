@@ -1,0 +1,47 @@
+@media screen and (min-width: 62em){
+    .container{
+        height: 100vh;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+    }
+
+    main{
+        display: flex;
+    }
+    
+    .social-area{
+        width: 15.5rem;
+        height: 3.5rem;
+        position: absolute;
+        top: -64px;
+        right: -56px;
+        display: none;
+        background-color: #48556a;
+        border-radius: 1rem;
+        padding: 1em 2em;                
+    }
+
+    .social-area::after {
+        content: '';
+        border-width: 10px;
+        border-style: solid;
+        border-color: #48556a transparent transparent;
+        position: absolute;
+        left: 50%;    
+        top: 100%;
+    }
+    
+    .active{
+        display: flex;
+    }
+
+    footer.active{
+        background-color: #fff;
+    }
+
+    .profile.active{
+        display: flex;
+    }
+}
