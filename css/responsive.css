@@ -39,6 +39,7 @@
 
     footer.active{
         background-color: #fff;
+        overflow: hidden;
     }
 
     .profile.active{
